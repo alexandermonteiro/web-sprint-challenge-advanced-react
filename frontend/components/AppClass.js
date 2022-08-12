@@ -191,7 +191,7 @@ export default class AppClass extends React.Component {
             reset
           </button>
         </div>
-        <form>
+        <form onSubmit={this.onSubmit}>
           <input
             id="email"
             type="email"

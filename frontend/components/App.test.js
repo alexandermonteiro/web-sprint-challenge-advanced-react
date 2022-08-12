@@ -7,12 +7,6 @@ beforeEach(() => {
   render(<AppFunctional />);
 });
 
-describe("Sanity Check", () => {
-  test("sanity", () => {
-    expect(true).toBe(false);
-  });
-});
-
 describe("Renders AppFunctional properly and works as expected", () => {
   test("renders without errors", () => {});
   test("renders an error message if user did not enter valid email address", async () => {
